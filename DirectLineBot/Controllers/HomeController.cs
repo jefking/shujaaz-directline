@@ -16,10 +16,10 @@ namespace DirectLine.Controllers
     #endregion
     public class HomeController : Controller
     {
-        private static string DiretlineUrl
-            = @"https://directline.botframework.com";
+        private static string DiretlineUrl = @"https://directline.botframework.com";
         private static string directLineSecret = "ezLx8q5Y6Kw.cwA.Dhk.KD-DrNBQUFjrXAz4CUolcT8SDGFzy9S2Tb0r4emVSRA";
         private static string botId = "7cd939df-71f2-4590-ad27-95b643fa1078";
+        
         #region public async Task<ActionResult> Index()
         public async Task<ActionResult> Index()
         {
